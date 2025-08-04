@@ -3,10 +3,12 @@ var experience = 30;
 var startingSalary = 45000;
 //write your code here
 
+var currentSalary = startingSalary;
 
-var growth = startingSalary * (experience+ 5/100);
-console.log(growth);
+for(var i = 1; i<=experience; i++){
+    currentSalary = currentSalary * (5/100) +currentSalary;
 
-var currentSalary = startingSalary + (30 * 0.05);
-// console.log(currentSalary);
+}
+console.log(currentSalary.toFixed(2));
+
 

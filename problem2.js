@@ -11,6 +11,4 @@ else if( money >= 10000){
 else if (money <= 9999){
     console.log("Chocolate");
 }
-// else{
-//     console.log('Kicui PabeNa');
-// }
+
